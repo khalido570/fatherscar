@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FATHERS CAR - Location de véhicules automobiles sans chauffeur à Tanger. Service professionnel et fiable.">
+    <meta name="keywords" content="location voiture, Tanger, véhicule, sans chauffeur, FATHERS CAR, location automobile">
+    <meta name="author" content="FATHERS CAR">
+    <title>FATHERS CAR — Location de Véhicules</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="car-icon-loader">🚗</div>
+            <h2 class="loader-title">FATHERS CAR</h2>
+            <div class="loader-bar"><div class="loader-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">
+                <span class="logo-icon">🚗</span>
+                <span class="logo-text">FATHERS <span class="logo-highlight">CAR</span></span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#accueil" class="nav-link active">🏠 Accueil</a>
+                <a href="#apropos" class="nav-link">📖 À Propos</a>
+                <a href="#services" class="nav-link">💼 Services</a>
+                <a href="#avantages" class="nav-link">✨ Avantages</a>
+                <a href="#flotte" class="nav-link">🚘 Flotte</a>
+                <a href="#temoignages" class="nav-link">⭐ Avis</a>
+                <a href="#faq" class="nav-link">❓ FAQ</a>
+                <a href="#contact" class="nav-link">📞 Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-animate="fade-up">🏆 Services Premium de Location</div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                FATHERS <span class="gradient-text">CAR</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                🚗 Location de véhicules automobiles sans chauffeur à Tanger
+            </p>
+            <p class="hero-description" data-animate="fade-up" data-delay="300">
+                Votre partenaire de confiance pour la location de voitures. Découvrez notre flotte de véhicules modernes et profitez d'un service irréprochable.
+            </p>
+            <div class="hero-buttons" data-animate="fade-up" data-delay="400">
+                <a href="#contact" class="btn btn-primary">📞 Nous Contacter</a>
+                <a href="#services" class="btn btn-outline">💼 Nos Services</a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="500">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span>+
+                    <span class="stat-label">Clients Satisfaits</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="50">0</span>+
+                    <span class="stat-label">Véhicules Disponibles</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="10">0</span>+
+                    <span class="stat-label">Années d'Expérience</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">📖 Qui Sommes-Nous</span>
+                <h2 class="section-title">À Propos de <span class="gradient-text">FATHERS CAR</span></h2>
+                <p class="section-subtitle">Votre partenaire de confiance pour la location de véhicules à Tanger</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-animate="fade-up" data-delay="100">
+                    <div class="about-icon">🎯</div>
+                    <h3>Notre Mission</h3>
+                    <p>Offrir à chaque client une expérience de location de véhicule exceptionnelle, avec un service personnalisé et des véhicules en parfait état, à des tarifs compétitifs.</p>
+                </div>
+                <div class="about-card" data-animate="fade-up" data-delay="200">
+                    <div class="about-icon">👁️</div>
+                    <h3>Notre Vision</h3>
+                    <p>Devenir la référence incontournable de la location de véhicules sans chauffeur à Tanger et dans toute la région du Nord du Maroc.</p>
+                </div>
+                <div class="about-card" data-animate="fade-up" data-delay="300">
+                    <div class="about-icon">💎</div>
+                    <h3>Nos Valeurs</h3>
+                    <p>Excellence, transparence, fiabilité et satisfaction client sont les piliers fondamentaux qui guident chacune de nos actions au quotidien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">💼 Nos Services</span>
+                <h2 class="section-title">Des Services <span class="gradient-text">Sur Mesure</span></h2>
+                <p class="section-subtitle">Des solutions de location adaptées à tous vos besoins de mobilité</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-icon">🚗</div>
+                    <h3>Location Courte Durée</h3>
+                    <p>Location de véhicules à la journée ou à la semaine. Idéal pour vos déplacements ponctuels et vos escapades.</p>
+                    <div class="service-tag">⚡ Disponible Immédiatement</div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon">📅</div>
+                    <h3>Location Longue Durée</h3>
+                    <p>Solutions de location au mois ou à l'année avec des tarifs préférentiels pour un engagement durable.</p>
+                    <div class="service-tag">💰 Tarifs Avantageux</div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-icon">✈️</div>
+                    <h3>Location Aéroport</h3>
+                    <p>Service de récupération à l'aéroport de Tanger. Votre véhicule vous attend dès votre arrivée.</p>
+                    <div class="service-tag">🛬 Livraison Aéroport</div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="400">
+                    <div class="service-icon">🏢</div>
+                    <h3>Location Entreprise</h3>
+                    <p>Offres spéciales pour les entreprises et les professionnels. Flottes adaptées à vos besoins corporatifs.</p>
+                    <div class="service-tag">🤝 Partenariat B2B</div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="500">
+                    <div class="service-icon">🎉</div>
+                    <h3>Location Événementielle</h3>
+                    <p>Véhicules de prestige pour vos mariages, événements et occasions spéciales.</p>
+                    <div class="service-tag">👑 Véhicules Premium</div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="600">
+                    <div class="service-icon">🔧</div>
+                    <h3>Assistance 24/7</h3>
+                    <p>Un support technique et une assistance routière disponibles 24 heures sur 24, 7 jours sur 7.</p>
+                    <div class="service-tag">📞 Support Continu</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="avantages" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">✨ Pourquoi Nous Choisir</span>
+                <h2 class="section-title">Nos <span class="gradient-text">Avantages</span></h2>
+                <p class="section-subtitle">Ce qui fait de FATHERS CAR votre meilleur choix</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-card" data-animate="fade-up" data-delay="100">
+                    <div class="advantage-number">01</div>
+                    <div class="advantage-icon">💰</div>
+                    <h3>Tarifs Compétitifs</h3>
+                    <p>Des prix transparents et justes, sans frais cachés ni surprises désagréables.</p>
+                </div>
+                <div class="advantage-card" data-animate="fade-up" data-delay="200">
+                    <div class="advantage-number">02</div>
+                    <div class="advantage-icon">🛡️</div>
+                    <h3>Assurance Complète</h3>
+                    <p>Tous nos véhicules sont assurés tous risques pour votre tranquillité totale.</p>
+                </div>
+                <div class="advantage-card" data-animate="fade-up" data-delay="300">
+                    <div class="advantage-number">03</div>
+                    <div class="advantage-icon">🚀</div>
+                    <h3>Véhicules Récents</h3>
+                    <p>Une flotte régulièrement renouvelée avec des modèles récents et bien entretenus.</p>
+                </div>
+                <div class="advantage-card" data-animate="fade-up" data-delay="400">
+                    <div class="advantage-number">04</div>
+                    <div class="advantage-icon">📍</div>
+                    <h3>Livraison Gratuite</h3>
+                    <p>Livraison et récupération du véhicule à l'adresse de votre choix dans Tanger.</p>
+                </div>
+                <div class="advantage-card" data-animate="fade-up" data-delay="500">
+                    <div class="advantage-number">05</div>
+                    <div class="advantage-icon">📋</div>
+                    <h3>Procédures Simples</h3>
+                    <p>Réservation rapide et formalités simplifiées pour gagner du temps.</p>
+                </div>
+                <div class="advantage-card" data-animate="fade-up" data-delay="600">
+                    <div class="advantage-number">06</div>
+                    <div class="advantage-icon">🌟</div>
+                    <h3>Service Personnalisé</h3>
+                    <p>Un accompagnement sur mesure adapté à chacun de vos besoins spécifiques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section id="flotte" class="section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">🚘 Notre Flotte</span>
+                <h2 class="section-title">Nos <span class="gradient-text">Catégories de Véhicules</span></h2>
+                <p class="section-subtitle">Une large gamme de véhicules pour chaque occasion</p>
+            </div>
+            <div class="fleet-grid">
+                <div class="fleet-card" data-animate="fade-up" data-delay="100">
+                    <div class="fleet-header">
+                        <span class="fleet-emoji">🚙</span>
+                        <span class="fleet-badge">Populaire</span>
+                    </div>
+                    <h3>Économique</h3>
+                    <p>Véhicules compacts et économiques, idéaux pour la ville et les trajets quotidiens.</p>
+                    <ul class="fleet-features">
+                        <li>⛽ Faible consommation</li>
+                        <li>🅿️ Facile à garer</li>
+                        <li>💵 Tarif attractif</li>
+                    </ul>
+                    <div class="fleet-price">À partir de <strong>200 MAD/jour</strong></div>
+                </div>
+                <div class="fleet-card fleet-featured" data-animate="fade-up" data-delay="200">
+                    <div class="fleet-header">
+                        <span class="fleet-emoji">🚗</span>
+                        <span class="fleet-badge badge-gold">Best-Seller</span>
+                    </div>
+                    <h3>Confort</h3>
+                    <p>Berlines et SUV pour un confort optimal lors de vos déplacements professionnels ou familiaux.</p>
+                    <ul class="fleet-features">
+                        <li>🛋️ Confort premium</li>
+                        <li>❄️ Climatisation auto</li>
+                        <li>📱 Bluetooth intégré</li>
+                    </ul>
+                    <div class="fleet-price">À partir de <strong>400 MAD/jour</strong></div>
+                </div>
+                <div class="fleet-card" data-animate="fade-up" data-delay="300">
+                    <div class="fleet-header">
+                        <span class="fleet-emoji">🏎️</span>
+                        <span class="fleet-badge">Premium</span>
+                    </div>
+                    <h3>Prestige</h3>
+                    <p>Véhicules de luxe pour vos événements spéciaux et vos déplacements VIP.</p>
+                    <ul class="fleet-features">
+                        <li>👑 Finition luxe</li>
+                        <li>🎵 Système audio premium</li>
+                        <li>🛡️ Assurance tous risques</li>
+                    </ul>
+                    <div class="fleet-price">À partir de <strong>800 MAD/jour</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">⭐ Témoignages</span>
+                <h2 class="section-title">Ce Que Disent <span class="gradient-text">Nos Clients</span></h2>
+                <p class="section-subtitle">La satisfaction de nos clients est notre plus grande récompense</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Service exceptionnel ! Le véhicule était impeccable et la procédure de location très simple. Je recommande vivement FATHERS CAR."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💼</div>
+                        <div>
+                            <strong>Mohammed A.</strong>
+                            <span>Client Régulier</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"J'ai loué un SUV pour un road trip familial. Véhicule propre, bien entretenu, et le prix était très raisonnable. Merci FATHERS CAR !"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍💼</div>
+                        <div>
+                            <strong>Fatima Z.</strong>
+                            <span>Voyage Familial</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Notre entreprise fait appel à FATHERS CAR depuis 3 ans. Un partenaire fiable avec un service professionnel impeccable et ponctuel."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">🏢</div>
+                        <div>
+                            <strong>Karim B.</strong>
+                            <span>Directeur Commercial</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">❓ FAQ</span>
+                <h2 class="section-title">Questions <span class="gradient-text">Fréquentes</span></h2>
+                <p class="section-subtitle">Trouvez rapidement les réponses à vos questions</p>
+            </div>
+            <div class="faq-list" data-animate="fade-up" data-delay="100">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>📄 Quels documents sont nécessaires pour louer un véhicule ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Pour louer un véhicule chez FATHERS CAR, vous aurez besoin de : une pièce d'identité valide (CIN ou passeport), un permis de conduire valide depuis au moins 2 ans, et une caution remboursable.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>💳 Quels sont les modes de paiement acceptés ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Nous acceptons les paiements en espèces, par carte bancaire, et par virement bancaire. Un acompte peut être demandé à la réservation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>🔄 Puis-je modifier ou annuler ma réservation ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oui, vous pouvez modifier ou annuler votre réservation gratuitement jusqu'à 48 heures avant la date prévue. Au-delà, des frais peuvent s'appliquer.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>🛡️ Les véhicules sont-ils assurés ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tous nos véhicules sont couverts par une assurance complète. Une assurance tous risques optionnelle est également disponible pour une protection maximale.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>📍 Proposez-vous la livraison du véhicule ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Oui, nous livrons le véhicule à l'adresse de votre choix dans Tanger et sa région, y compris à l'aéroport, la gare, et les hôtels.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>⛽ Le carburant est-il inclus ?</span>
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Le véhicule est livré avec un plein de carburant. Il doit être restitué avec le même niveau de carburant qu'à la prise en charge.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-badge">📞 Contact</span>
+                <h2 class="section-title">Contactez <span class="gradient-text">Nous</span></h2>
+                <p class="section-subtitle">N'hésitez pas à nous contacter pour toute question ou réservation</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-up" data-delay="100">
+                    <div class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:developper.fathers.car.service@gmail.com">developper.fathers.car.service@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>APPARTEMENT N 25 RUE AL MANSOUR EDDAHBI 90000, TANGER</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <h3>Activité</h3>
+                        <p>LOCATION DE VÉHICULES AUTOMOBILES SANS CHAUFFEUR</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">🕐</div>
+                        <h3>Horaires</h3>
+                        <p>Lundi - Dimanche : 08h00 - 22h00<br>Service d'urgence 24h/24</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-animate="fade-up" data-delay="200">
+                    <form class="contact-form" id="contactForm">
+                        <h3>📝 Demande de Réservation</h3>
+                        <div class="form-group">
+                            <label for="name">👤 Nom Complet</label>
+                            <input type="text" id="name" placeholder="Votre nom complet" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">📧 Email</label>
+                                <input type="email" id="email" placeholder="votre@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">📱 Téléphone</label>
+                                <input type="tel" id="phone" placeholder="+212 6XX XXX XXX" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="dateStart">📅 Date Début</label>
+                                <input type="date" id="dateStart" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="dateEnd">📅 Date Fin</label>
+                                <input type="date" id="dateEnd" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehicleType">🚗 Type de Véhicule</label>
+                            <select id="vehicleType" required>
+                                <option value="">Sélectionnez un type</option>
+                                <option value="economique">🚙 Économique</option>
+                                <option value="confort">🚗 Confort</option>
+                                <option value="prestige">🏎️ Prestige</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">💬 Message</label>
+                            <textarea id="message" rows="4" placeholder="Vos demandes spécifiques..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">🚀 Envoyer la Demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🚗</span>
+                        <span class="logo-text">FATHERS <span class="logo-highlight">CAR</span></span>
+                    </div>
+                    <p>Votre partenaire de confiance pour la location de véhicules automobiles sans chauffeur à Tanger.</p>
+                </div>
+                <div class="footer-links-group">
+                    <h4>🔗 Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">🏠 Accueil</a></li>
+                        <li><a href="#apropos">📖 À Propos</a></li>
+                        <li><a href="#services">💼 Services</a></li>
+                        <li><a href="#flotte">🚘 Notre Flotte</a></li>
+                        <li><a href="#contact">📞 Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-group">
+                    <h4>📋 Informations</h4>
+                    <ul>
+                        <li><a href="#faq">❓ FAQ</a></li>
+                        <li><a href="#avantages">✨ Avantages</a></li>
+                        <li><a href="#temoignages">⭐ Témoignages</a></li>
+                        <li><a href="privacy.html">🔒 Politique de Confidentialité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>📞 Contact</h4>
+                    <p>📧 <a href="mailto:developper.fathers.car.service@gmail.com">developper.fathers.car.service@gmail.com</a></p>
+                    <p>📍 APPARTEMENT N 25 RUE AL MANSOUR EDDAHBI 90000, TANGER</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 FATHERS CAR — Tous droits réservés | <a href="privacy.html">🔒 Politique de Confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Retour en haut">⬆️</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
